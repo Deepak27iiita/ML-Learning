@@ -39,8 +39,9 @@ htmlcov/
 .pybuilder/
 
 # Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
+# NOTE: Notebooks are tracked in this project. The following entries were removed so
+# that `*.ipynb` files and checkpoint folders are included in version control.
+# If you prefer to ignore checkpoints, re-add `.ipynb_checkpoints/` here.
 
 # IPython
 profile_default/
